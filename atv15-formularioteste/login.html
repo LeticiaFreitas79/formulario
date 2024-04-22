@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="log">
+        <h2>Login</h2>
+        <p>Complete os campos abaixo para entrar em sua conta</p>
+    <form method="get" action="finalizado.html">
+        <label for="user">| Usuário: </label>
+        <input
+            id="user"
+            name="user"
+            type="text"
+            required
+            minlength="3"
+            maxlength="15"
+        />
+    </br>
+        <label for="senha"> | Senha: </label>
+        <input
+            id="senha"
+            name="senha"
+            type="password"
+            required
+        />
+    </br>
+        <button>Enviar</button>
+    </br>
+        <input type="checkbox">
+        <label for="box">Manter-se logado</label>
+    </br>
+        <a href="recuperar-senha.html">Esqueci minha senha</a>
+    </br>
+        <a href="cadastro.html">Não tem conta? Cadastre-se</a>
+    </div>
+    <script src="js/comandos.js"></script>
+</body>
+</html>
